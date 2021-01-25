@@ -21,6 +21,22 @@
       arrows: false,
     })
 		
-	})
+  })
+
+  $.instagramFeed({
+      'username': 'pinnacle.physiotherapy',
+      'container': "#instagram-feed",
+      'display_profile': false,
+      'display_biography': false,
+      'display_gallery': true,
+      'display_captions': false,
+      'callback': null,
+      'styling': true,
+      'items': 12,
+      'items_per_row': 6,
+      'margin': 0.25,
+      'cache_time': 360,
+      'on_error': console.error
+  })
 	
 })(jQuery, this)
