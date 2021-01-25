@@ -1,0 +1,36 @@
+aside.sidebar {
+  float: right;
+  width: 250px;
+}
+
+body.resources section {
+  width: calc(100% - 275px);
+}
+
+.text-center {
+  text-align: center;
+}
+
+#facebook-feed {
+  border: 1px solid red;
+}
+
+@media (min-width: 768px) {
+  .three-columns {
+    display: flex;
+    justify-content: space-between;
+    .third-column {
+      flex: 0 0 32%;
+    }
+  }
+}
+
+.social-footer {
+  padding-bottom: 3rem;
+}
+
+.staff-column {
+  img {
+    max-width: 200px;
+  }
+}
