@@ -1,18 +1,9 @@
-aside.sidebar {
-  float: right;
-  width: 250px;
-}
-
-body.resources section {
-  width: calc(100% - 275px);
-}
-
 .text-center {
   text-align: center;
 }
 
 #facebook-feed {
-
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -23,6 +14,15 @@ body.resources section {
       flex: 0 0 32%;
     }
   }
+  #facebook-feed {
+    float: left;
+    width: 48%;
+  }
+  #instagram-feed {
+    float: right;
+    width: 48%;
+    height: 500px;
+  }
 }
 
 .social-footer {
@@ -32,5 +32,29 @@ body.resources section {
 .staff-column {
   img {
     max-width: 200px;
+  }
+}
+
+.locations-img {
+  img {
+    max-width: 100%;
+  }
+}
+
+// sidebar
+
+aside.sidebar {
+
+}
+
+@media (min-width: 768px) {
+  aside.sidebar {
+    float: right;
+    width: 250px;
+  }
+
+  body.resources section,
+  body.book-an-appointment section {
+    width: calc(100% - 275px);
   }
 }
