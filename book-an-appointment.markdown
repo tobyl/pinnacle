@@ -17,9 +17,9 @@ slug: book-an-appointment
         method="POST"
       >
         <label>Your Name</label>
-        <input type="text" name="name" />
+        <input type="text" name="name" required />
         <label>Your Email</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" required />
         <label>Location</label>
         <select name="location">
           <option>Select…</option>
