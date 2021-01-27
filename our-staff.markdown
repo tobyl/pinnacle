@@ -72,7 +72,7 @@ slug: our-staff
       Curtis is passionate about his work as a Physiotherapist and strives to provide the best care possible for his patients.</p>
     </div>
     <div class="third-column">
-      <p><img class="wp-image-138" src="/assets/img/mitch-van-teeling.jpg" alt="Mitchell Van Teeling"><br><strong>Mitchell Van Teeling, RPT</strong></p>
+      <p><img class="wp-image-138" src="/assets/img/mitchell-van-teeling.jpg" alt="Mitchell Van Teeling"><br><strong>Mitchell Van Teeling, RPT</strong></p>
       <p>Registered Physiotherapist</p>
       <p class="staff-hidden-copy">Grew up in Manitoba.  Played 4 years of junior hockey before attending York University taking Specialize Honours in Kinesiology and playing for the men’s hockey team, we won OUA’s in my 3rd year.  Then went to Western for Master of Physical Therapy, graduated 2020.  Planning on taking acupuncture, Mackenzie and continuing FCAMPT.  I have completed my Level 1 in FCAMPT. </p>
     </div>
