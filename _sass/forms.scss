@@ -1,0 +1,57 @@
+.field.location-field {
+  margin-bottom: 3rem;
+}
+
+.form-separator {
+  margin-bottom: 2rem;
+  height: 0;
+  border-top: 1px solid #ccc;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div.field {
+  margin-bottom: 1rem;
+  label {
+    font-size: 1.75rem;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+}
+
+div.field input[type='text'],
+div.field input[type='email'],
+div.field textarea,
+div.field select {
+  appearance: none;
+  font: inherit;
+  line-height: inherit;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+}
+
+.appt-form {
+  display: none;
+}
+
+#my-form-button {
+  appearance: none;
+  border: none;
+  background: #2978b1;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+  &:hover {
+    cursor: pointer;
+    background: #255f8a;
+  }
+}
+
+#my-form-status {
+  color: #2978b1;
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+}

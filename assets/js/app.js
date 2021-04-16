@@ -38,5 +38,14 @@
       'cache_time': 360,
       'on_error': console.error
   })
+
+  $('#preferred-location').change(function () {
+    var location = $('#preferred-location option:selected').val()
+    if (location !== '-1') {
+      $('.appt-form').slideUp()
+      $('#my-form-status').html("")
+      $('#' + location + '-form').slideDown()
+    }
+  })
 	
 })(jQuery, this)

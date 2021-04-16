@@ -8,31 +8,78 @@ slug: book-an-appointment
 <main class="container">
   {% include sidebar.html %}
   <section>
-    <p>You can use this form to request a callback about booking an appointment at one of our two locations. Alternatively, use the phone numbers below to speak to someone directly.</p>
+    <p>You can use this form to request a callback about booking an appointment at one of our two locations. Alternatively, see our <a href="/locations">locations page</a> to contact us by phone.</p>
     <p>If you wish to download our Intake and Modified Par Q forms to fill out before you come in to see us, please use the links below.</p>
-    <p><a href="/docs/Patient-Intake-Form-and-Consent-to-Release.pdf" target="_blank" rel="noreferrer noopener">Patient Intake &amp; Consent to Release (PDF)</a><br><a href="/docs/Modified-Par-Q-and-P4.pdf" target="_blank" rel="noreferrer noopener">Modified Par-Q and P4 (PDF)</a></p>
-    <div>
-      <form id="my-form"
-        action="https://formspree.io/f/xaylvvkv"
-        method="POST"
-      >
-        <label>Your Name</label>
-        <input type="text" name="name" required />
-        <label>Your Email</label>
-        <input type="email" name="email" required />
-        <label>Location</label>
-        <select name="location">
-          <option>Select…</option>
-          <option value="windsor">Windsor</option>
-          <option value="lasalle">LaSalle</option>
-          <option value="lakeshore">Lakeshore</option>
-        </select>
-        <label>Message:</label>
-        <textarea name="message"></textarea>
+    <ul>
+      <li><a href="/docs/Patient-Intake-Form-and-Consent-to-Release.pdf" target="_blank" rel="noreferrer noopener">Patient Intake &amp; Consent to Release (PDF)</a></li>
+      <li><a href="/docs/Modified-Par-Q-and-P4.pdf" target="_blank" rel="noreferrer noopener">Modified Par-Q and P4 (PDF)</a></li>
+    </ul>
+    <p>Please do not include any payment information in your submission.</p>
+    <div class="field location-field">
+      <label for="preferred-location">Please select a location</label>
+      <select id="preferred-location" name="preferred-location">
+        <option value="-1">Select…</option>
+        <option value="windsor">Windsor</option>
+        <option value="lasalle">LaSalle</option>
+        <option value="lakeshore">Lakeshore</option>
+      </select>
+    </div>
+    <hr class="form-separator" />
+    <div id="windsor-form" class="appt-form">
+      <form id="my-form" action="https://formspree.io/f/xaylvvkv" method="POST">
+        <input type="text" name="location" hidden value="windsor" />
+        <div class="field">
+          <label>Your Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="field">
+          <label>Your Email</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="field">
+          <label>What services are you inquiring about?</label>
+          <textarea name="message"></textarea>
+        </div>
         <button id="my-form-button">Submit</button>
-        <p id="my-form-status"></p>
       </form>
     </div>
+    <div id="lasalle-form" class="appt-form">
+      <form id="my-form" action="https://formspree.io/f/xaylvvkv" method="POST">
+        <input type="text" name="location" hidden value="lasalle" />
+        <div class="field">
+          <label>Your Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="field">
+          <label>Your Email</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="field">
+          <label>What services are you inquiring about?</label>
+          <textarea name="message"></textarea>
+        </div>
+        <button id="my-form-button">Submit</button>
+      </form>
+    </div>
+    <div id="lakeshore-form" class="appt-form">
+      <form id="my-form" action="https://formspree.io/f/xaylvvkv" method="POST">
+        <input type="text" name="location" hidden value="lakeshore" />
+        <div class="field">
+          <label>Your Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="field">
+          <label>Your Email</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="field">
+          <label>What services are you inquiring about?</label>
+          <textarea name="message"></textarea>
+        </div>
+        <button id="my-form-button">Submit</button>
+      </form>
+    </div>
+    <p id="my-form-status"></p>
   </section>
 
   {% include social_footer.html %}
@@ -51,8 +98,9 @@ slug: book-an-appointment
     
     function success() {
       form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      button.style = "display: none";
+      $('.appt-form').slideUp();
+      status.innerHTML = "We have received your submission, we will contact you soon.";
     }
 
     function error() {
