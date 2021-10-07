@@ -8,8 +8,6 @@ slug: our-services
 <main class="container">
   <h3 class="primary-heading"><span>Treatments</span></h3>
   <h4>Physiotherapy Treatment</h4>
-
-  This is a change!
   
   <p>All clients start by participating in a thorough assessment completed by a Registered Physiotherapist. A personalized treatment plan will be developed with you and treatment will be initiated day one. Our team is well-trained in a variety of treatment techniques and will utilize a blend of exercise, hands-on treatment and appropriate modalities to maximize your recovery.</p>
 
