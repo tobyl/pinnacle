@@ -6,7 +6,15 @@ slug: our-services
 ---
 
 <main class="container">
+
+  <a href="docs/pinnacle-physiotherapy.pdf" class="read-more">
+    <strong>Read More</strong><br />
+    about our team, services and our history<br />
+    <small>Download as PDF</small>
+  </a>
+
   <h3 class="primary-heading"><span>Treatments</span></h3>
+
   <h4>Physiotherapy Treatment</h4>
   
   <p>All clients start by participating in a thorough assessment completed by a Registered Physiotherapist. A personalized treatment plan will be developed with you and treatment will be initiated day one. Our team is well-trained in a variety of treatment techniques and will utilize a blend of exercise, hands-on treatment and appropriate modalities to maximize your recovery.</p>

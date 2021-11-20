@@ -58,3 +58,33 @@ aside.sidebar {
     width: calc(100% - 275px);
   }
 }
+
+// addresses
+
+.location-column {
+  address {
+    margin-bottom: 1.5rem;
+    font-style: normal;
+  }
+}
+
+// read more
+
+.read-more {
+  display: block;
+  margin: 3rem auto;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #0A4269;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  max-width: 350px;
+  transition: background 237ms ease-out;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  small {
+    color: grey;
+  }
+  &:hover {
+    background: #e1ecf3;
+  }
+}
