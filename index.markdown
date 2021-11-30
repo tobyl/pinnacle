@@ -11,6 +11,7 @@ slug: home-page
 </div>
 
 <div id="HomeSlider">
+  <div><img src="/assets/img/xmas-slider-2021.jpg" alt="Happy Holidays!" /></div>
   <div><img src="/assets/img/still-open-slider.jpg" alt="We're still open" /></div>
   <div><img src="/assets/img/open-now.jpg" alt="We are open" /></div>
   <!-- <div><img src="/assets/img/slider0.jpg" alt="Team" /></div> -->
