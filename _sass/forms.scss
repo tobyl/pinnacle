@@ -3,16 +3,33 @@
 }
 
 .form-separator {
-  margin-bottom: 2rem;
+  position: relative;
+  display: block;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   height: 0;
-  border-top: 1px solid #ccc;
+  border: none;
+  border-top: 1px solid rgb(146, 198, 235);
   margin-left: 10%;
   margin-right: 10%;
+  overflow: visible;
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: rgb(146, 198, 235);
+    border-radius: 5px;
+    margin-top: -5px;
+  }
 }
 
-div.field {
-  margin-bottom: 1rem;
-  label {
+div.field,
+p.field {
+  margin-bottom: 1.75rem;
+  label.primary-label {
     font-size: 1.75rem;
     display: block;
     margin-bottom: 0.75rem;
@@ -21,6 +38,7 @@ div.field {
 
 div.field input[type='text'],
 div.field input[type='email'],
+div.field input[type='tel'],
 div.field textarea,
 div.field select {
   appearance: none;

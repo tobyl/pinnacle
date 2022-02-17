@@ -445,6 +445,7 @@ nav.nav ul li.nav-item a:hover {
 input[type=text],
 input[type=email],
 input[type=search],
+input[type=tel],
 select,
 textarea {
   width: 100%;
@@ -463,11 +464,12 @@ textarea {
 
 input[type=text],
 input[type=email],
+input[type=tel],
 select {
   height: 34px;
 }
 
-label {
+label.primary-label {
   color: rgb(41, 120, 177);
   font-family: 'Roboto Condensed';
   font-size: 95%;
