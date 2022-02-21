@@ -56,6 +56,7 @@ slug: gives-back
           <label class="primary-label" for="reason">Reason for nomination</label>
           <textarea id="reason" name="reason"></textarea>
         </p>
+        <div class="g-recaptcha" data-sitekey="6LcRQ4IeAAAAAEBy0kObpDJUOxFZCLTxu26DKdtr"></div>
         <button id="my-form-button">Submit</button>
         <p id="my-form-status"></p>
       </form>
@@ -64,6 +65,8 @@ slug: gives-back
 </main>
 
 {% include social_footer.html %}
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
   var form = document.getElementById("gives-back-form");
