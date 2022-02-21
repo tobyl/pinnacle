@@ -11,6 +11,7 @@ slug: home-page
 </div>
 
 <div id="HomeSlider">
+  <a href="/gives-back"><img src="/assets/img/gives-back.jpg" alt="Pinnacle Gives Back" /></a>
   <div><img src="/assets/img/jan2022.jpg" alt="2022" /></div>
   <div><img src="/assets/img/still-open-slider.jpg" alt="We're still open" /></div>
   <div><img src="/assets/img/open-now.jpg" alt="We are open" /></div>
@@ -50,8 +51,8 @@ slug: home-page
     <div class="clearfix">
       {% include facebook_feed.html %}
       <div id="gives-back">
-        <h3>Pinnacle Physiotherapy Gives Back</h3>
-        <p>This year, Pinnacle Physiotherapy would like to <strong>GIVE BACK</strong> to the Windsor-Essex community and award one Frontline Business/Organization and one Frontline Individual per month with Antonino's Original Pizza for Lunch!</p>
+        <img src="/assets/img/gives-back-banner.jpg" alt="Pinnacle Gives Back" style="max-width: 100%;" />
+        <p>Pinnacle Physiotherapy and Antonino's Original Pizza are teaming up to give back to the community. Each month, one organization and one individual working the front lines of the pandemic will be awarded a free pizza luncheon or gift certificate.</p>
         <p>Our Pinnacle Physiotherapy team will review the nominations and randomly select winners, contact them and then share the delivery on our social media.</p>
         <p>Pinnacle Physiotherapy may just surprise you or your staff with Antonino's Original Pizza for lunch!</p>
         <p>

@@ -8,10 +8,10 @@ slug: gives-back
 <main class="container">
   <div class="two-columns">
     <div class="half-column">
-      <h3>Pinnacle Physiotherapy Gives Back!</h3>
-      <p><img class="antoninos-logo" src="/assets/img/antoninos-logo.png" />This year, Pinnacle Physiotherapy would like to <strong>GIVE BACK</strong> to the Windsor-Essex community and award one Frontline Business/Organization and one Frontline Individual per month with Antonino's Original Pizza for Lunch!</p>
+      <img src="/assets/img/gives-back-banner.jpg" alt="Pinnacle Gives Back" style="max-width: 100%;" />
+      <p>Pinnacle Physiotherapy and Antonino's Original Pizza are teaming up to give back to the community. Each month, one organization and one individual working the front lines of the pandemic will be awarded a free pizza luncheon or gift certificate.</p>
       <p>Our Pinnacle Physiotherapy team will review the nominations and randomly select winners, contact them and then share the delivery on our social media. Pinnacle Physiotherapy may just surprise you or your staff with Antonino's Original Pizza for lunch!</p>
-      <p>Use the form on this page to tell us about your nominee, please do not nominate more than one person or business/organization.</p>
+      <p>Nominate one business/organization/unit or department and one individual, using the form below and they could be surprised with a free gift lunch or gift certificate from Antonino's Original Pizza.</p>
     </div> <!-- half-column -->
     <div class="half-column">
       <h3>Tell Us About Your Nominee</h3>
@@ -90,7 +90,7 @@ slug: gives-back
           if (Object.hasOwn(data, 'errors')) {
             status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
           } else {
-            status.innerHTML = "Oops! There was a problem submitting your form"
+            status.innerHTML = "Oops! There was a problem submitting your form. Did you click the recaptcha at the end?"
           }
         })
       }
