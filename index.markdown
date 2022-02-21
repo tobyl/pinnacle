@@ -49,7 +49,15 @@ slug: home-page
     <p class="text-center bottom-space">Pinnacle Physiotherapy accepts prescriptions from any doctor or clinic for direct billing, so you don’t have to pay upfront! No referrals necessary, WSIB and motor vehicle claims also accepted.</p>
     <div class="clearfix">
       {% include facebook_feed.html %}
-      {% include instagram_feed.html %}
+      <div id="gives-back">
+        <h3>Pinnacle Physiotherapy Gives Back</h3>
+        <p>This year, Pinnacle Physiotherapy would like to <strong>GIVE BACK</strong> to the Windsor-Essex community and award one Frontline Business/Organization and one Frontline Individual per month with Antonino's Original Pizza for Lunch!</p>
+        <p>Our Pinnacle Physiotherapy team will review the nominations and randomly select winners, contact them and then share the delivery on our social media.</p>
+        <p>Pinnacle Physiotherapy may just surprise you or your staff with Antonino's Original Pizza for lunch!</p>
+        <p>
+          <a href="/gives-back">Nominate Now!</a>
+        </p>
+      </div>
     </div>
   </section>
   <div class="home-locations clearfix">
