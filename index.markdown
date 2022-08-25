@@ -49,7 +49,7 @@ slug: home-page
     <p class="text-center bottom-space">Pinnacle Physiotherapy accepts prescriptions from any doctor or clinic for direct billing, so you don’t have to pay upfront! No referrals necessary, WSIB and motor vehicle claims also accepted.</p>
     <div class="clearfix">
       {% include facebook_feed.html %}
-      <div id="gives-back">
+      <!-- <div id="gives-back">
         <img src="/assets/img/gives-back-banner.jpg" alt="Pinnacle Gives Back" style="max-width: 100%;" />
         <p>Pinnacle Physiotherapy and Antonino's Original Pizza are teaming up to give back to the community. Each month, one organization and one individual working the front lines of the pandemic will be awarded a free pizza luncheon or gift certificate.</p>
         <p>Our Pinnacle Physiotherapy team will review the nominations and randomly select winners, contact them and then share the delivery on our social media.</p>
@@ -57,7 +57,7 @@ slug: home-page
         <p>
           <a href="/gives-back">Nominate Now!</a>
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
   <div class="home-locations clearfix">
