@@ -78,6 +78,13 @@ slug: our-staff
       <p class="staff-hidden-copy">Catherine graduated from the University of Ottawa with a Bachelor Degree in Physiotherapy in 1997. Since then, she has gained experience working with individuals of all ages and abilities with a wide range of orthopaedic conditions. She is certified by the Acupuncture Foundation of Canada to perform acupuncture as a healing modality for her patients. She is also enthusiastic about using soft tissue release techniques, targeted corrective exercises and Theralase Laser Therapy. She has taken extensive courses in the Mckenzie Method of Mechanical Diagnosis and Treatment. Catherine has enjoyed working to help patients achieve their goals in the Leamington community for 20 years. She is a founder and owner of Renew Physiotherapy and a partner in Pinnacle Physiotherapy of Lakeshore. Her goal is to not only solve your musculoskeletal issues but prevent future injuries in the process.</p>
     </div>
   </div>
+  <!-- <div class="three-columns staff-column">
+    <div class="third-column">
+      <p><img class="wp-image-221" src="/assets/img/ben-bergamin.jpg" alt="Ben Bergamin"><br><strong>Ben Bergamin, RPT</strong></p>
+      <p>Registered Physiotherapist</p>
+      <p class="staff-hidden-copy">Ben graduated from the University of Windsor in 2020 with a Bachelor of Human Kinetics degree with Great Distinction while on an athletic scholarship for varsity football. He recently earned his Master of Physical Therapy degree from Western University in 2022. He looks to continue his education in orthopedics and manual therapy through post-graduate courses and seminars. Ben is committed to providing evidence-based, patient-centred care and values the importance of self-management, activity, and education.</p>
+    </div>
+  </div> -->
   <h3 class="primary-heading"><span>Team Members</span></h3>
   <div class="three-columns team-members-column">
     <div class="third-column">
@@ -113,9 +120,9 @@ slug: our-staff
     </div>
   </div>
   <div class="three-columns team-members-column">
-    <div class="third-column">
+    <!-- <div class="third-column">
       <p><strong>Zikra Nilam</strong><br>Kinesiology Physiotherapy Assistant, LaSalle</p>
-    </div>
+    </div> -->
     <div class="third-column">
       <p><strong>Janice Sulpher</strong><br>Administrator, Lakeshore</p>
     </div>

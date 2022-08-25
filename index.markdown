@@ -11,16 +11,16 @@ slug: home-page
 </div>
 
 <div id="HomeSlider">
-  <a href="/gives-back"><img src="/assets/img/gives-back.jpg" alt="Pinnacle Gives Back" /></a>
+  <!-- <a href="/gives-back"><img src="/assets/img/gives-back.jpg" alt="Pinnacle Gives Back" /></a> -->
   <!-- <div><img src="/assets/img/jan2022.jpg" alt="2022" /></div>
   <div><img src="/assets/img/still-open-slider.jpg" alt="We're still open" /></div>
-  <div><img src="/assets/img/open-now.jpg" alt="We are open" /></div>
+  <div><img src="/assets/img/open-now.jpg" alt="We are open" /></div> -->
   <div><img src="/assets/img/slider1.jpg" alt="Megan" /></div>
   <div><img src="/assets/img/slider2.jpg" alt="Grant" /></div>
   <div><img src="/assets/img/slider3.jpg" alt="Jessica" /></div>
   <div><img src="/assets/img/slider4.jpg" alt="Cristina" /></div>
   <div><img src="/assets/img/slider5.jpg" alt="Mario" /></div>
-  <div><img src="/assets/img/slider6.jpg" alt="Devon" /></div> -->
+  <div><img src="/assets/img/slider6.jpg" alt="Devon" /></div>
 </div>
 
 <div class="book-an-appointment">
