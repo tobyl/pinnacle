@@ -80,8 +80,8 @@ slug: our-staff
   </div>
   <div class="three-columns staff-column">
     <div class="third-column">
-      <p><img class="wp-image-221" src="/assets/img/ben-bergamin.jpg" alt="Ben Bergamin"><br><strong>Ben Bergamin, RPT</strong></p>
-      <p>Registered Physiotherapist</p>
+      <p><img class="wp-image-221" src="/assets/img/ben-bergamin.jpg" alt="Ben Bergamin"><br><strong>Ben Bergamin, Res PT</strong></p>
+      <p>Resident Physiotherapist</p>
       <p class="staff-hidden-copy">Ben graduated from the University of Windsor in 2020 with a Bachelor of Human Kinetics degree with Great Distinction while on an athletic scholarship for varsity football. He recently earned his Master of Physical Therapy degree from Western University in 2022. He looks to continue his education in orthopedics and manual therapy through post-graduate courses and seminars. Ben is committed to providing evidence-based, patient-centred care and values the importance of self-management, activity, and education.</p>
     </div>
   </div>
