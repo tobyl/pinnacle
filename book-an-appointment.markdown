@@ -82,7 +82,11 @@ slug: book-an-appointment
             </div>
             <div>
               <input type="radio" id="mva" name="payment" value="mva">
-              <label for="mva">MVA Extended Health</label>
+              <label for="mva">MVA</label>
+            </div>
+            <div>
+              <input type="radio" id="extended" name="payment" value="extended">
+              <label for="extended">Extended Health</label>
             </div>
             <div>
               <input type="radio" id="private" name="payment" value="private">
