@@ -18,6 +18,7 @@ slug: locations
       </address>
       <address>
         tel <strong>519.252.1630</strong><br />
+        fax <strong>519.962.5905</strong><br />
         email <strong><a href="mailto:info@pinnaclephysiotherapy.com">info@pinnaclephysiotherapy.com</a></strong>
       </address>
       <ul class="hours-list">
