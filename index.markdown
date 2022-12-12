@@ -15,6 +15,8 @@ slug: home-page
   <!-- <div><img src="/assets/img/jan2022.jpg" alt="2022" /></div>
   <div><img src="/assets/img/still-open-slider.jpg" alt="We're still open" /></div>
   <div><img src="/assets/img/open-now.jpg" alt="We are open" /></div> -->
+  <div><img src="/assets/img/PinnaclePhysiotherapyWindsor2.jpg" alt="Gift of Health" /></div>
+  <a href="https://windsorcancerfoundation.org/pinnacle-ornaments-for-patient-assistance-fund/?fbclid=IwAR3OX2wp3_58KJBdQ2Pxd-gIKQ8CyfX4TXpbKEyTpcrs2VUiSudl07ANeyo"><img src="/assets/img/PinnaclePhysiotherapyWindsor.jpg" alt="Ornaments for Patients" /></a>
   <div><img src="/assets/img/slider1.jpg" alt="Megan" /></div>
   <div><img src="/assets/img/slider2.jpg" alt="Grant" /></div>
   <div><img src="/assets/img/slider3.jpg" alt="Jessica" /></div>
