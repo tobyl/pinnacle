@@ -79,14 +79,14 @@ slug: our-staff
     </div>
   </div>
   <div class="three-columns staff-column">
-    <div class="third-column">
+    <!-- <div class="third-column">
       <p><img class="wp-image-221" src="/assets/img/ben-bergamin.jpg" alt="Ben Bergamin"><br><strong>Ben Bergamin, Res PT</strong></p>
       <p>Resident Physiotherapist</p>
       <p class="staff-hidden-copy">Ben graduated from the University of Windsor in 2020 with a Bachelor of Human Kinetics degree with Great Distinction while on an athletic scholarship for varsity football. He recently earned his Master of Physical Therapy degree from Western University in 2022. He looks to continue his education in orthopedics and manual therapy through post-graduate courses and seminars. Ben is committed to providing evidence-based, patient-centred care and values the importance of self-management, activity, and education.</p>
-    </div>
+    </div> -->
     <div class="third-column">
-      <p><img class="wp-image-221" src="/assets/img/nyro-hang.jpg" alt="Nyro Hang"><br><strong>Nyro Hang, Res PT</strong></p>
-      <p>Resident Physiotherapist</p>
+      <p><img class="wp-image-221" src="/assets/img/nyro-hang.jpg" alt="Nyro Hang"><br><strong>Nyro Hang, RPT</strong></p>
+      <p>Registered Physiotherapist</p>
       <p class="staff-hidden-copy">Nyro completed his Master of Physical Therapy and Honours Specialization in Kinesiology at Western University. He looks to continue his education in orthopedics and manual therapy through post graduate courses and seminars. His passion for active living and strong desire to help others inspired him to pursue physiotherapy. Nyro’s goal for therapy is to provide you with the tools to improve your quality of life and become the best version of yourself. Nyro has experience working with patients with a variety of conditions. He understands that there is no pre-set way to help someone and is passionate in delivering individualized and compassionate care to all his patients.</p>
     </div>
     <div class="third-column"></div>
